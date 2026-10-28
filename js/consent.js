@@ -31,6 +31,15 @@
       maps: 'Maps and external content', mapsP: 'Shows the Google Maps map on this website. When it loads, Google may use its cookies.',
       on: 'Always on', save: 'Save my choice', all: 'Accept all', close: 'Close', label: 'Cookie notice',
       mapBtn: 'Show the map', mapTxt: 'The map is provided by Google and uses its cookies. It only loads if you accept.'
+    },
+    fr: {
+      h: 'Des cookies, juste l’essentiel',
+      p: 'Nous n’utilisons aucun cookie publicitaire ni de mesure d’audience. Nous gardons dans votre navigateur la langue et ce choix. Si vous acceptez, nous chargerons aussi la carte Google, qui utilise ses propres cookies.',
+      more: 'Politique de cookies', reject: 'Refuser', config: 'Paramétrer', accept: 'Tout accepter',
+      ph: 'Paramètres des cookies', tech: 'Nécessaires', techP: 'Ils retiennent votre langue et votre choix sur les cookies. Toujours actifs.',
+      maps: 'Cartes et contenu externe', mapsP: 'Affiche la carte Google Maps dans le site. En la chargeant, Google peut utiliser ses cookies.',
+      on: 'Toujours actifs', save: 'Enregistrer mon choix', all: 'Tout accepter', close: 'Fermer', label: 'Bandeau cookies',
+      mapBtn: 'Voir la carte', mapTxt: 'La carte est fournie par Google et utilise ses cookies. Elle ne se charge que si vous acceptez.'
     }
   };
   const T = () => TX[document.documentElement.lang] || TX.es;
